@@ -74,14 +74,14 @@
   [self.window makeKeyAndVisible];
   [AEPMobileCore setLogLevel:AEPLogLevelTrace];
   [AEPMobileCore
-      configureWithAppId:@"YOUR-APP-ID"];
+      configureWithAppId:@"31d8b0ad1f9f/98da4ef07438/launch-b7548c1d44a2-development"];
   const UIApplicationState appState = application.applicationState;
   [AEPMobileCore
       registerExtensions:@[
         AEPMobileLifecycle.class, AEPMobileIdentity.class, AEPMobileEdgeIdentity.class, AEPMobileEdge.class,
         AEPMobileEdgeConsent.class, AEPMobileEdgeBridge.class, AEPMobileMessaging.class,
         AEPMobileOptimize.class, AEPMobilePlaces.class, AEPMobileTarget.class,
-        AEPMobileCampaignClassic.class, AEPMobileAssurance.class
+        AEPMobileCampaignClassic.class, AEPMobileAssurance.class, AEPMobileCampaign.class
    ] completion:^{
       if (appState != UIApplicationStateBackground) {
         [AEPMobileCore lifecycleStart:nil];

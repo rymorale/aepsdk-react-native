@@ -15,8 +15,10 @@ package com.aepsampleapp;
 import android.app.Application;
 import android.content.Context;
 import com.adobe.marketing.mobile.Assurance;
+import com.adobe.marketing.mobile.Campaign;
 import com.adobe.marketing.mobile.Edge;
 import com.adobe.marketing.mobile.Extension;
+import com.adobe.marketing.mobile.Identity;
 import com.adobe.marketing.mobile.Lifecycle;
 import com.adobe.marketing.mobile.LoggingMode;
 import com.adobe.marketing.mobile.Messaging;
@@ -117,7 +119,7 @@ public class MainApplication extends Application implements ReactApplication {
       } catch (InvocationTargetException e) {
         e.printStackTrace();
       }
-      MobileCore.configureWithAppID("YOUR-APP-ID");
+      MobileCore.configureWithAppID("31d8b0ad1f9f/98da4ef07438/launch-b7548c1d44a2-development");
       List<Class<? extends Extension>> extensions = Arrays.asList(
           Lifecycle.EXTENSION,
           Signal.EXTENSION,
@@ -130,7 +132,9 @@ public class MainApplication extends Application implements ReactApplication {
           Places.EXTENSION,
           Target.EXTENSION,
           Optimize.EXTENSION,
-          Consent.EXTENSION);
+          Consent.EXTENSION,
+          Identity.EXTENSION,
+          Campaign.EXTENSION);
       MobileCore.registerExtensions(extensions, o -> {
         MobileCore.lifecycleStart(null);
       });
