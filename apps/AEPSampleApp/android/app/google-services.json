@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "27566411560",
+    "project_id": "aepsdk-sample",
+    "storage_bucket": "aepsdk-sample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27566411560:android:9454a0c960b080d93a0a1d",
+        "android_client_info": {
+          "package_name": "com.adobe.marketing.mobile.sampleapp.rymorale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27566411560-dq2j2350cb0qgvp0uibgvir4qg5obgia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz4twuA0SDFWtWgdY0FrqPOo_e6Du4qqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27566411560-dq2j2350cb0qgvp0uibgvir4qg5obgia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27566411560:android:77e69b3f600c53ca3a0a1d",
+        "android_client_info": {
+          "package_name": "com.adobe.marketing.mobile.sampleapp.rymorale1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27566411560-dq2j2350cb0qgvp0uibgvir4qg5obgia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz4twuA0SDFWtWgdY0FrqPOo_e6Du4qqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27566411560-dq2j2350cb0qgvp0uibgvir4qg5obgia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27566411560:android:a9c2e0527602f95c3a0a1d",
+        "android_client_info": {
+          "package_name": "com.aepsampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27566411560-dq2j2350cb0qgvp0uibgvir4qg5obgia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz4twuA0SDFWtWgdY0FrqPOo_e6Du4qqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27566411560-dq2j2350cb0qgvp0uibgvir4qg5obgia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
